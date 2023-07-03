@@ -4,11 +4,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #131313;
   }
   
-  h1, h2, h3 {
-    color: #333;
-  }
+  
   
   ul {
     list-style: none;
@@ -18,7 +17,7 @@ body {
   /* Estilos del encabezado */
   
   header {
-    background-color: #f4f4f4;
+    background-color: #86868B;
     padding: 20px;
     text-align: center;
   }
@@ -39,6 +38,35 @@ body {
     padding: 50px;
   }
   
+  .contenedor {
+    display: table-cell;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #86868B;
+  }
+  
+ 
+  .imgpro {
+    height: 400px;
+    width: 400px;
+  }
+  /* Colores */
+  .negro {
+    color: #131313;
+
+  }
+  .negro_claro {
+    color: #2B2B2B;
+  }
+  .gris {
+    color: #86868B;
+  }
+  .azul {
+    color: #1561F0;
+  }
+  .blanco {
+    color: white;
+  }
   
   
  
