@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #131313;
+    color: #EFF0EA;
   }
   
   
@@ -17,9 +18,10 @@ body {
   /* Estilos del encabezado */
   
   header {
-    background-color: #86868B;
+    background-color: #2B2B2B;
     padding: 20px;
     text-align: center;
+    color: #86868B;
   }
   
   nav ul li {
@@ -28,45 +30,38 @@ body {
   }
   
   nav ul li a {
-    text-decoration: none;
-    color: #333;
+    color: #86868B;
   }
   
-  /* Estilos de las secciones */
   
-  section {
-    padding: 50px;
-  }
-  
-  .contenedor {
-    display: table-cell;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: #86868B;
-  }
-  
- 
+ .imgperfil {
+border-radius: 50%;  
+}
   .imgpro {
-    height: 400px;
-    width: 400px;
+    aspect-ratio: 16/9;
+   width: 100%;
+    
   }
   /* Colores */
   .negro {
-    color: #131313;
-
+    background-color: #131313;
   }
   .negro_claro {
-    color: #2B2B2B;
+    background-color:  #2B2B2B;
   }
   .gris {
-    color: #86868B;
+    background-color:  #86868B;
   }
   .azul {
-    color: #1561F0;
+    background-color:  #1561F0;
   }
   .blanco {
-    color: white;
+    background-color:  white;
   }
+  .otroblanco {
+    color: #EFF0EA;
+  }
+  
   
   
  
