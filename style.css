@@ -35,7 +35,9 @@ body {
   
   
  .imgperfil {
-border-radius: 50%;  
+border-radius: 50%; 
+height: 150px;
+width: 150px; 
 }
   .imgpro {
     aspect-ratio: 16/9;
@@ -61,7 +63,10 @@ border-radius: 50%;
   .otroblanco {
     color: #EFF0EA;
   }
-  
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
   
   
  
